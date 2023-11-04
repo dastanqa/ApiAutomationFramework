@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.dastan.listeners.TestListener"></listener>
+    </listeners>
+    <test parallel="methods" thread-count="6" name="C:/Users/Ideapad 5/IdeaProjects/APIAutomationFramework">
+        <classes>
+<!--            <class name="com.dastan.tests.GetTests">-->
+<!--                <methods>-->
+<!--                    <include name="getEmployeeDetails"/>-->
+<!--                    <include name="getEmployeeDetail"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.dastan.tests.PostTest">-->
+<!--                <methods>-->
+<!--                    <include name="postCallTest"/>-->
+<!--                    <include name="postRequestUsingExternalFile"/>-->
+<!--                    <include name="postRequestUsingExternalFile1"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.dastan.tests.AssignmentTests">
+                <methods>
+                    <include name="assignmentTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+{
+  "id": "814",
+  "first_name": "robert",
+  "last_name": "Nurlan",
+  "email": "dastan@gmail.com",
+  "jobs": [
+    "QA",
+    "Footballer",
+    "Pornstar"
+  ],
+  "marks": [
+    {
+      "Math": 90,
+      "English": 50
+    },
+    {
+      "Math": 69,
+      "English": 36
+    }
+  ],
+  "favFoods": {
+    "breakfast": "cereal",
+    "lunch": "chicken",
+    "dinner": [
+      "fish",
+      "soup",
+      "beef"
+    ]
+  }
+}
